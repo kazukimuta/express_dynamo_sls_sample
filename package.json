@@ -1,0 +1,30 @@
+{
+  "name": "express_dynamo_sls_sample",
+  "version": "1.0.0",
+  "description": "Sample of serverless, with Express, DynamoDB",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kazuki Muta",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.177.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "serverless-http": "^1.5.2",
+    "serverless-plugin-aws-alerts": "^1.2.4",
+    "serverless-webpack": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "serverless-dynamodb-local": "^0.2.27",
+    "serverless-offline": "^3.16.0",
+    "webpack": "^3.10.0"
+  }
+}
